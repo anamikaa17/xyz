@@ -1,0 +1,21 @@
+{
+  "name": "retailer",
+  "version": "1.0.0",
+  "description": "Retailer Identity Module (Trade Licence | GSTIN) - minimal",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "you",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^7.8.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
